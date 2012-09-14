@@ -9,4 +9,5 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/noodall/noodall-articles-wordpress-importer"
   s.summary     = "Noodall Articles WordPress Importer"
   s.description = "Import your WordPress blog into Noodall Articles"
+  s.add_dependency 'sanitize'
 end
